@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Meeting minutes for brainstorming session">
+  <title>Meeting Minutes</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <h1>Made Up Meeting</h1>
+    <h2>Brainstorming Project Ideas</h2>
+    <h3>4/14/2026</h3>
+    <nav>
+      <a href="#attendance">Attendance</a> |
+      <a href="#agenda">Agenda</a> |
+      <a href="#unfinished">Unfinished Business</a> |
+      <a href="#new-business">New Business</a> |
+      <a href="#comments">Comments</a> |
+      <a href="#diagrams">Diagrams</a> |
+      <a href="#media">Media</a> |
+      <a href="#feedback-form">Feedback Form</a>
+    </nav>
+  </header>
+
+  <hr>
+
+  <main>
+
+    <section id="attendance">
+      <h2>Attendance</h2>
+      <ul>
+        <li>Jerry 1</li>
+        <li>Jerry 2</li>
+        <li>Jerry 3</li>
+        <li>Jerry 4</li>
+      </ul>
+    </section>
+
+    <section id="agenda">
+      <h2>Agenda</h2>
+      <ol>
+        <li>Discuss Project Ideas</li>
+        <li>Vote on Project Ideas</li>
+        <li>Assign Tasks</li>
+      </ol>
+    </section>
+
+    <section id="unfinished">
+      <h2>Unfinished Business from Last Meeting</h2>
+      <ul>
+        <li>Clarify project goals</li>
+        <li>Clarify participant roles</li>
+      </ul>
+    </section>
+
+    <section id="new-business">
+      <h2>New Business</h2>
+      <ul>
+        <li>Discuss project timeline</li>
+        <li>Discuss project budget</li>
+      </ul>
+    </section>
+
+    <section id="comments">
+      <h2>Comments / Questions / Concerns</h2>
+      <ul>
+        <li>Who is leading the project?</li>
+        <li>When is the project due?</li>
+      </ul>
+      <details>
+        <summary>Additional Notes</summary>
+        <p>
+          <em>Jerry 2</em> raised a concern about the timeline being <strong>too tight</strong>.<br>
+          <b>Action item:</b> Jerry 1 will review the schedule and propose adjustments.
+          <i>This is still pending confirmation.</i>
+        </p>
+      </details>
+    </section>
+
+    <section id="diagrams">
+      <h2>Diagrams / Architecture</h2>
+      <p>Tutorial Diagram</p>
+      <img src="media/tutorial.JPG" alt="Tutorial Diagram" width="600">
+    </section>
+
+    <section id="media">
+      <h2>Audio Recording</h2>
+      <audio controls>
+        <source src="media/video.mp4" type="audio/mp4">
+        Your browser does not support the audio element.
+      </audio>
+
+      <h2>Video Recording</h2>
+      <video controls width="640">
+        <source src="media/video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+      </video>
+    </section>
+
+    <div>
+      <span>[Placeholder for future content]</span>
+    </div>
+
+    <hr>
+
+    <section id="feedback-form">
+      <h2>Meeting Feedback Form</h2>
+      <form>
+        <fieldset>
+          <legend>Your Info</legend>
+
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Your name"><br><br>
+
+          <label for="meeting-date">Meeting Date:</label><br>
+          <input type="date" id="meeting-date" name="meeting-date"><br><br>
+
+          <label for="role">Role:</label><br>
+          <input type="text" id="role" name="role" list="roles-list" placeholder="Select or type a role">
+          <datalist id="roles-list">
+            <option value="Team Lead">
+            <option value="Developer">
+            <option value="Designer">
+            <option value="Note Taker">
+          </datalist>
+        </fieldset>
+
+        <fieldset>
+          <legend>Feedback</legend>
+
+          <p>How would you rate this meeting?</p>
+          <input type="radio" id="rate-great" name="rating" value="great">
+          <label for="rate-great">Great</label><br>
+          <input type="radio" id="rate-okay" name="rating" value="okay">
+          <label for="rate-okay">Okay</label><br>
+          <input type="radio" id="rate-poor" name="rating" value="poor">
+          <label for="rate-poor">Poor</label><br><br>
+
+          <p>Which topics were useful?</p>
+          <input type="checkbox" id="topic-ideas" name="topics" value="ideas">
+          <label for="topic-ideas">Project Ideas</label><br>
+          <input type="checkbox" id="topic-timeline" name="topics" value="timeline">
+          <label for="topic-timeline">Timeline Discussion</label><br>
+          <input type="checkbox" id="topic-budget" name="topics" value="budget">
+          <label for="topic-budget">Budget Discussion</label><br><br>
+
+          <label for="priority">Priority for next meeting:</label><br>
+          <select id="priority" name="priority">
+            <option value="high">High</option>
+            <option value="medium" selected>Medium</option>
+            <option value="low">Low</option>
+          </select><br><br>
+
+          <label for="extra-comments">Additional comments:</label><br>
+          <textarea id="extra-comments" name="extra-comments" rows="4" cols="40" placeholder="Write your thoughts here..."></textarea><br><br>
+
+          <button type="submit">Submit Feedback</button>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>Minutes prepared by: Jerry</p>
+  </footer>
+
+</body>
+</html>
